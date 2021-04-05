@@ -1,0 +1,29 @@
+{
+  "name": "tailwindcss-flip",
+  "version": "1.0.0",
+  "description": "RTL plugin for tailwindcss",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvrajeesh/tailwindcss-flip.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "rtl"
+  ],
+  "author": "Rajeesh C V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvrajeesh/tailwindcss-flip/issues"
+  },
+  "homepage": "https://github.com/cvrajeesh/tailwindcss-flip#readme",
+  "dependencies": {
+    "lodash.flatmap": "^4.5.0"
+  }
+}
