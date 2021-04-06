@@ -8,6 +8,11 @@ If your application needs to support multiple languages, then RTL support is a c
 
 **tailwindcss-flip** takes an approach were, no code change is required instead, we generate utility classes using `[dir=rtl]` html attribute css selector.
 
+### Demo
+
+- https://tailwindcss-flip.clodui.com
+- https://tailwindcss-flip.clodui.com/?lng=he (Hebrew version)
+
 <img src="./img/demo.gif" />
 
 ## Installation

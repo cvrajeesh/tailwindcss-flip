@@ -152,7 +152,7 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <label className="text-white pr-4" for="language">
+                <label className="text-white pr-4" htmlFor="language">
                   {t("navbar.language")}
                 </label>
                 <select
