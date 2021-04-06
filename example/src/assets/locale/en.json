@@ -1,0 +1,39 @@
+{
+  "translations": {
+    "dir": "ltr",
+    "navbar": {
+      "heading": "Tailwind Starter Kit",
+      "docs": "docs",
+      "share": "Share",
+      "tweet": "Tweet",
+      "star": "Star",
+      "language": "Switch Language"
+    },
+    "home": {
+      "connect": "Connect",
+      "friends": "Friends",
+      "photos": "Photos",
+      "comments": "Comments",
+      "name": "Jenna Stones",
+      "address": "Los Angeles, California",
+      "role": "Solution Manager - Creative Tim Officer",
+      "department": " University of Computer Science",
+      "resume": "An artist of considerable range, Jenna the name taken by Melbourne-raised, Brooklyn-based Nick Murphy writes,performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. An artist of considerable range.",
+      "showMore": "Show more"
+    },
+    "footer": {
+      "letsKeepInTouch": "Let's keep in touch!",
+      "findUs": "Find us on any of these platforms, we respond 1-2 business days.",
+      "usefulLinks": "Useful Links",
+      "aboutUs": "About Us",
+      "blog": "Blog",
+      "github": "Github",
+      "freeProducts": "Free Products",
+      "otherResources": "Other Resources",
+      "license": "MIT License",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy",
+      "contactUs": "Contact Us"
+    }
+  }
+}
