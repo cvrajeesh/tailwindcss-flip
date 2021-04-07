@@ -152,18 +152,35 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-                <label className="text-white pr-4" htmlFor="language">
-                  {t("navbar.language")}
-                </label>
-                <select
-                  name="language"
-                  onChange={handleMenuChange}
-                  value={i18n.language}
-                  className="border py-1 px-2 text-grey-darkest"
+                <div
+                  className={
+                    (props.transparent
+                      ? "lg:text-gray-300 text-gray-500"
+                      : "text-gray-500") +
+                    " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
                 >
-                  <option value="en">English</option>
-                  <option value="he">עִברִית</option>
-                </select>
+                  <i className="fas fa-language text-lg leading-lg" />
+                  <label
+                    className="pl-2 inline-block lg:hidden"
+                    htmlFor="language"
+                  >
+                    {t("navbar.language")}
+                  </label>
+                  <select
+                    name="language"
+                    onChange={handleMenuChange}
+                    value={i18n.language}
+                    className={
+                      (props.transparent
+                        ? "lg:text-gray-800 text-gray-500"
+                        : "text-gray-500") + " border px-2 ml-2"
+                    }
+                  >
+                    <option value="en">English</option>
+                    <option value="he">עִברִית</option>
+                  </select>
+                </div>
               </li>
             </ul>
           </div>
